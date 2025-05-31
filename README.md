@@ -23,7 +23,7 @@ Some useful links:
    ```
 3. Install dependencies:
    ```
-   npm i
+   bun i
    ```
 
 ## Useful commands
@@ -31,19 +31,19 @@ Some useful links:
 ### Start dev server
 
 ```
-npm run tauri dev
+bun run tauri dev
 ```
 
 ### Build executable
 
 ```
-npm run tauri build
+bun run tauri build
 ```
 
 ### Add shadcn-svelte component
 
 ```
-npx shadcn-svelte@next add <component>
+bunx shadcn-svelte@next add <component>
 ```
 
 Replace `<component>` with the name of the component you want to add (e.g., button, card, dialog). You can find the full list of available components at https://next.shadcn-svelte.com/docs/components.

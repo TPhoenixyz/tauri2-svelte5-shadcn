@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '23'
       - name: Install frontend dependencies
-        run: npm ci
+        run: bun ci
 
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@stable
